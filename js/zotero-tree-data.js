@@ -419,6 +419,177 @@ var tree =
         "selectable": false
       },
       {
+        "text": "2020/11/27 - Benoit Dufimier",
+        "item-id": "c32,i1682",
+        "nodes": [
+          {
+            "text": "A Simple Framework for Contrastive Learning of Visual Representations",
+            "item-id": "i1680",
+            "nodes": [
+              {
+                "text": "Comment: ICML'2020. Code and pretrained models at https://github.com/google-research/simclr",
+                "item-id": "n1681",
+                "icon": "glyphicon glyphicon-text-background",
+                "item_title": "Comment: ICML'2020. Code and pretrained models at https://github.com/google-research/simclr",
+                "item_type": "note",
+                "item_note": "<div class=\"zotero-note znv1\">Comment: ICML'2020. Code and pretrained models at https://github.com/google-research/simclr</div>",
+                "node_type": "note"
+              },
+              {
+                "text": "Chen et al2020A Simple Framework for Contrastive Learning of Visual Representations.pdf",
+                "item-id": "i1685",
+                "icon": "glyphicon glyphicon-paperclip",
+                "item_title": "Chen et al2020A Simple Framework for Contrastive Learning of Visual Representations.pdf",
+                "item_type": "attachment",
+                "item_note": null,
+                "node_type": "item",
+                "metadata": [
+                  [
+                    "Title",
+                    "Chen et al2020A Simple Framework for Contrastive Learning of Visual Representations.pdf"
+                  ]
+                ],
+                "resource": "storage/i1685.pdf"
+              }
+            ],
+            "icon": "glyphicon glyphicon-file",
+            "item_title": "A Simple Framework for Contrastive Learning of Visual Representations",
+            "item_type": "journalArticle",
+            "item_note": null,
+            "node_type": "item",
+            "metadata": [
+              [
+                "Abstract Note",
+                "This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank. In order to understand what enables the contrastive prediction tasks to learn useful representations, we systematically study the major components of our framework. We show that (1) composition of data augmentations plays a critical role in defining effective predictive tasks, (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning. By combining these findings, we are able to considerably outperform previous methods for self-supervised and semi-supervised learning on ImageNet. A linear classifier trained on self-supervised representations learned by SimCLR achieves 76.5% top-1 accuracy, which is a 7% relative improvement over previous state-of-the-art, matching the performance of a supervised ResNet-50. When fine-tuned on only 1% of the labels, we achieve 85.8% top-5 accuracy, outperforming AlexNet with 100X fewer labels."
+              ],
+              [
+                "Access Date",
+                "2020-11-25 10:41:14"
+              ],
+              [
+                "Creators",
+                "Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton"
+              ],
+              [
+                "Date",
+                "2020-06-30 2020-06-30"
+              ],
+              [
+                "Extra",
+                "arXiv: 2002.05709"
+              ],
+              [
+                "Language",
+                "en"
+              ],
+              [
+                "Library Catalog",
+                "arXiv.org"
+              ],
+              [
+                "Publication Title",
+                "arXiv:2002.05709 [cs, stat]"
+              ],
+              [
+                "Title",
+                "A Simple Framework for Contrastive Learning of Visual Representations"
+              ],
+              [
+                "URL",
+                "http://arxiv.org/abs/2002.05709"
+              ]
+            ],
+            "resource": "storage/i1685.pdf",
+            "selectable": false
+          },
+          {
+            "text": "What makes for good views for contrastive learning",
+            "item-id": "i1682",
+            "nodes": [
+              {
+                "text": "Comment: submitted to ECCV 2020",
+                "item-id": "n1683",
+                "icon": "glyphicon glyphicon-text-background",
+                "item_title": "Comment: submitted to ECCV 2020",
+                "item_type": "note",
+                "item_note": "<div class=\"zotero-note znv1\">Comment: submitted to ECCV 2020</div>",
+                "node_type": "note"
+              },
+              {
+                "text": "Tian et al2020What makes for good views for contrastive learning.pdf",
+                "item-id": "i1684",
+                "icon": "glyphicon glyphicon-paperclip",
+                "item_title": "Tian et al2020What makes for good views for contrastive learning.pdf",
+                "item_type": "attachment",
+                "item_note": null,
+                "node_type": "item",
+                "metadata": [
+                  [
+                    "Title",
+                    "Tian et al2020What makes for good views for contrastive learning.pdf"
+                  ]
+                ],
+                "resource": "storage/i1684.pdf"
+              }
+            ],
+            "icon": "glyphicon glyphicon-file",
+            "item_title": "What makes for good views for contrastive learning",
+            "item_type": "journalArticle",
+            "item_note": null,
+            "node_type": "item",
+            "metadata": [
+              [
+                "Abstract Note",
+                "Contrastive learning between multiple views of the data has recently achieved state of the art performance in the eld of self-supervised representation learning. Despite its success, the in uence of di erent view choices has been less studied. In this paper, we use empirical analysis to be er understand the importance of view selection, and argue that we should reduce the mutual information (MI) between views while keeping task-relevant information intact. To verify this hypothesis, we devise unsupervised and semi-supervised frameworks that learn e ective views by aiming to reduce their MI. We also consider data augmentation as a way to reduce MI, and show that increasing data augmentation indeed leads to decreasing MI and improves downstream classi cation accuracy. As a by-product, we also achieve a new state-of-the-art accuracy on unsupervised pre-training for ImageNet classi cation (73% top-1 linear reado with a ResNet-50). In addition, transferring our models to PASCAL VOC object detection and COCO instance segmentation consistently outperforms supervised pre-training. Code: http://github.com/HobbitLong/PyContrast."
+              ],
+              [
+                "Access Date",
+                "2020-11-25 10:41:18"
+              ],
+              [
+                "Creators",
+                "Yonglong Tian, Chen Sun, Ben Poole, Dilip Krishnan, Cordelia Schmid, Phillip Isola"
+              ],
+              [
+                "Date",
+                "2020-05-20 2020-05-20"
+              ],
+              [
+                "Extra",
+                "arXiv: 2005.10243"
+              ],
+              [
+                "Language",
+                "en"
+              ],
+              [
+                "Library Catalog",
+                "arXiv.org"
+              ],
+              [
+                "Publication Title",
+                "arXiv:2005.10243 [cs]"
+              ],
+              [
+                "Title",
+                "What makes for good views for contrastive learning"
+              ],
+              [
+                "URL",
+                "http://arxiv.org/abs/2005.10243"
+              ]
+            ],
+            "resource": "storage/i1684.pdf",
+            "selectable": false
+          }
+        ],
+        "item_title": "2020/11/27 - Benoit Dufimier",
+        "item_type": null,
+        "item_note": null,
+        "node_type": "collection",
+        "selectable": false
+      },
+      {
         "text": "2020/11/06 - Cl\u00e9ment Poiret",
         "item-id": "c29,i1547",
         "nodes": [
